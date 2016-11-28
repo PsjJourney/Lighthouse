@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/webview_title_topView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/main_top_bg_color" />
+
+    <RelativeLayout
+        android:id="@+id/webview_title_all"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_50"
+        android:background="@color/main_top_bg_color"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/webview_title_leftLin"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/back_down_selector"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/webview_title_leftLin_icon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:src="@mipmap/title_back" />
+
+            <TextView
+                android:id="@+id/webview_title_leftLin_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:text="@string/title_fanhui"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/textSize_18" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/webview_title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="150dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textSize_18" />
+
+        <LinearLayout
+            android:id="@+id/webview_title_rightLin"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back_down_selector"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/webview_title_right_icon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@mipmap/title_share" />
+            <TextView
+                android:id="@+id/webview_title_right_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:textSize="@dimen/textSize_18"
+                android:textColor="@color/white"
+                android:visibility="gone"
+                android:background="@drawable/circle_translate_half_bg" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
