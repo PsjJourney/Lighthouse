@@ -1,4 +1,4 @@
-package com.psj.myapplication;
+package com.example.lighthouse;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

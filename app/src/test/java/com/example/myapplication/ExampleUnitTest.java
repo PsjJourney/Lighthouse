@@ -1,4 +1,4 @@
-package com.psj.myapplication;
+package com.example.lighthouse;
 
 import org.junit.Test;
 

@@ -3,10 +3,5 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-
-    <color name="main_top_bg_color">#FF6634</color>
-    <color name="back_down_color">#60000000</color>
-    <color name="white">#ffffff</color>
-    <color name="alpha_white">#50FFFFFF</color>
-    <color name="main_bg">#F9F9F9</color>
+    <color name="white">#FFFFFF</color>
 </resources>
